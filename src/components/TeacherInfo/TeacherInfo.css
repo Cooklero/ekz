@@ -1,0 +1,42 @@
+.TeacherInfo{
+    
+    width:100%;
+    height:auto;
+  
+}
+.TeacherInfo .container{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    margin-left:2rem ;
+    margin-right: 2rem;
+   
+}
+.TeacherInfo .content{
+    
+    width: 900px;
+    display:inline-flex;
+    flex-direction:column;
+    justify-content: center;
+   
+  
+}
+.InfoImage1, .InfoImage2{
+    display: flex;
+}
+
+@media screen and (max-width:1055px){
+  .TeacherInfo .content{
+   
+      width: auto;
+  }
+ 
+  .TeacherInfo .container{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .TeacherInfo img{
+      width: 100%;
+  }
+} 

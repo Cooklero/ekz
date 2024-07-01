@@ -1,0 +1,187 @@
+
+
+ .LoginForm{
+    width:100%;
+    height: 200%;
+  
+ }
+ .LoginForm  .container1{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+    height:100vh;
+}
+.LoginForm .leftform{
+    width: 50%;
+    height:100%;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.forgotPass-container{
+    margin-top: 0.5rem;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.LoginForm .links:hover{
+    color: #34a6ec;
+    transition:0.4s;
+}
+.LoginForm .links:active{
+    color: #FFB562;
+    transition:0.4s;
+}
+.LoginForm .links{
+    color:#2f678b;
+}
+.LoginForm .rightcontent{
+    width: 50%;
+    height:100%;
+    background: -webkit-linear-gradient(90deg, #002f4d, #2f678b);/* Chrome 10-25, Safari 5.1-6 */                      
+    background: linear-gradient(90deg, #002f4d, #2f678b);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.LoginForm .content1{
+    width: 70%;
+    height:70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.LoginForm .loginblock{
+    width: 550px;
+    height: 450px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius:10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.LoginForm .form{
+    width: 100%;
+    height:70%;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.LoginForm .loginblock {
+    width: 489px;
+    height: 460px;
+    background-color: var(--primary-color1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.LoginForm .inputbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.LoginForm .btn{
+    
+    border-radius: 20px;
+    font-size: 13px;
+    width: 400px;
+    text-align: center;
+    margin-top: 1rem;
+    height: 50px;
+    font-family:  sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+.LoginForm .rightcontent h1{
+    color: #fff;
+}
+.LoginForm h1 {
+    text-align: center;
+    color:  #000;
+    
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    justify-content: start;
+    line-height: 40px;
+    margin-bottom: 0;
+}
+.LoginForm h3{
+    text-align: left;
+    color:  initial;
+    font-family:  sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    width: 100%;
+}
+.LoginForm .input{
+    background-color: #ffffff;
+    border: 2px solid rgb(231 226 226);
+    border-radius: 12px;
+    font-size: 13px;
+    width: 400px;
+    padding:1rem;
+    margin-top: 7px;
+    height: 50px;
+}
+/* .LoginForm .mainpic{
+    width: 500px;
+}
+
+.LoginForm  .container button:active{
+    transform: scale(.96);
+}
+.LoginForm  .container button{
+    background-color: #1579EF;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid ;
+    border-radius: 5px;
+    width:100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    justify-content: center;
+    margin-top: 12px;
+    cursor: pointer;transition: transform .25s;
+}
+.LoginForm  .container form{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   margin-top:5rem;
+    height: 80%;
+    width: 50%;
+}
+@media (max-width:650px) {
+    .LoginForm  .container form {
+       position: relative;
+       margin:auto;
+    }
+    .LoginForm  .container{
+        
+        min-height: 350px;
+        
+    }
+    
+}*/

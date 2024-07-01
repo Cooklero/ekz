@@ -1,0 +1,65 @@
+.Partners{
+    display: flex;
+    flex-direction: column;
+  
+    width:100%;
+    height:auto;
+}
+.Partners .container{
+   
+    margin: 1rem;
+   margin-left:3rem ;
+   margin-right: 3rem;
+    
+ }
+.Partners .content{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+
+.Partners .part-boxes{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Partners .part-box{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    
+}
+.Partners .img1{
+    background: url('../../images/logo_KST.png');
+    width: 139px;
+    height: 73px;
+}
+.Partners .img2{
+    background: url('../../images/logo_COLLEGE_AG.png');
+    width: 75px;
+    height: 120px;
+}
+.Partners .img3{
+    background: url('../../images/Logo_Polytech_rus_main\ 1.png');
+    width: 386px;
+    height: 101px;
+}
+.Partners .img4{
+    background: url('../../images/Лого\ КАИТ\ 20\ 1\ 1.png');
+    width: 115px;
+    height: 151px;
+}
+
+.Partners h1{
+    text-align: center;
+}
+@media(max-width:1100px){
+    .Partners h1{
+        font-size: 30px;
+    }
+}

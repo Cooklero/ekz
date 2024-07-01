@@ -1,0 +1,108 @@
+.profile{
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid;
+    border-color: rgb(190, 189, 186) ;
+    width: 100%;
+}
+.profile .contain{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow:0 4px 4px 0 rgba(87, 87, 87, 0.5);
+    background-color: var(--primary-color1);
+    margin: 1rem;
+}
+.profile .chart{
+    margin: 1rem;
+    width: 100%;
+}
+.profile .rowbox{
+    margin-top:30px;
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+.profile .ant-upload-wrapper{
+    margin-top: 50px;
+}
+.profile .Lesson {
+    width: 340px;
+    height:auto;
+    background: #fff;
+    font-size: 16px;
+    color:#a5a4a4;
+
+}
+.profile .input {
+  
+    height: 50px;
+  
+   width: 100%;
+    font-size: 16px;
+    color:#a5a4a4;
+    padding: 20px 45px 20px 20px;
+}
+.profile input::placeholder{
+    color:#746E6E;
+}
+.profile  .imgbox{
+    display: flex;
+    flex-direction: column;
+  
+    margin-left: 10%;
+    margin-right: -10%;
+}
+
+.profile  .ic{
+    margin-top:15px;
+}
+.profile  .passw{
+    text-align: center;
+    align-items: center;
+    width:170px;
+    margin-left: 30px;
+}
+.profile  .input-box{
+width: 100%;
+margin-bottom: 30px;
+}
+.profile  .input-box2{
+    width: 100%;
+    margin-bottom: 30px;
+    }
+    .profile  .ant-upload-list-item-container{
+margin: auto;
+height: 500px;
+ }
+ .profile  .textbtn{
+    margin-top: 30px;
+    
+}
+.profile  .wrap{
+    width: 50%;
+    margin-right:20px;
+    }
+.profile .wrap2{
+  width: 50%;      
+    }
+.profile .inputbox{
+        display: flex;
+        flex-direction: column;
+    
+        margin-left: auto;
+        margin-right: auto;
+       }
+.profile :where(.css-dev-only-do-not-override-1qfezbu).ant-upload-wrapper.ant-upload-picture-circle-wrapper .ant-upload-list.ant-upload-list-picture-circle {
+        gap: 8px;
+        justify-content: center;
+}
+
+.profile :where(.css-1qfezbu).ant-upload-wrapper.ant-upload-picture-circle-wrapper .ant-upload-list.ant-upload-list-picture-circle {
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,91 @@
+.help{
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid;
+    border-color: rgb(190, 189, 186) ;
+    width: 100%;
+}
+.help .container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow:0 4px 4px 0 rgba(87, 87, 87, 0.5);
+    background-color: var(--primary-color1);
+}
+.help .chart{
+    margin: 1rem;
+    width: 100%;
+}
+.help .rowbox{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+ 
+}
+.help .Lesson {
+    width: 340px;
+    height:auto;
+    background: #fff;
+    font-size: 16px;
+    color:#a5a4a4;
+
+}
+.help .input {
+  
+    height: 50px;
+  
+   width: 100%;
+    font-size: 16px;
+    color:#a5a4a4;
+    padding: 20px 45px 20px 20px;
+}
+.help input::placeholder{
+    color:#746E6E;
+}
+.help .imgbox{
+    display: flex;
+    flex-direction: column;
+  
+    margin-left: 10%;
+    margin-right: -10%;
+}
+
+.help .ic{
+    margin-top:15px;
+}
+.help .passw{
+    text-align: center;
+    align-items: center;
+    width:170px;
+    margin-left: 30px;
+}
+.help .input-box{
+width: 100%;
+margin-bottom: 30px;
+}
+.help .input-box2{
+    width: 100%;
+    margin-bottom: 30px;
+    }
+
+.help .textbtn{
+    margin-top: 0px;
+    
+}
+.help .wrap{
+    width: 100%;
+    margin-right:20px;
+    }
+.help .wrap2{
+  width: 50%;      
+    }
+.help .inputbox{
+        display: flex;
+        flex-direction: column;
+    
+        margin-left: auto;
+        margin-right: auto;
+       }
+    

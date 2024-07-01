@@ -1,0 +1,49 @@
+.Goal{
+    
+    width:100%;
+    height:auto;
+  
+}
+.Goal .container{
+    display: flex;
+    flex-direction: row;
+   margin: 1rem;
+   margin-left:3rem ;
+   margin-right: 3rem;
+   
+}
+.Goal .content{
+    
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  
+}
+.Goal .btn{
+    transition: transform .25s;
+}
+.Goal .btn:active{
+    transform: scale(.96);
+}
+.Goal #img{
+    margin: auto;
+}
+
+@media screen and (max-width:1055px){
+    .Goal .content{
+     
+        width: auto;
+    }
+   
+    .Goal .container{
+        width:auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Goal img{
+        width:100%;
+    }
+} 

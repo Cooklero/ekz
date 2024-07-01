@@ -1,0 +1,173 @@
+.catalboxes{
+    background-color: rgb(236, 235, 235);
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+}
+.catalboxes p,h1,h2 ,h3, h4, h5{
+    color: black;
+}
+.catalboxes .ant-upload-wrapper {
+    
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.catalboxes :where(.css-1qfezbu).ant-collapse>.ant-collapse-item:last-child>.ant-collapse-header {
+    border-radius: 5px;
+}
+.Notebox>.wmde-markdown-var>.w-md-editor>.w-md-editor-show-live{
+        overflow: auto;
+        /* height: 1011.91px; */
+        border-radius: 0px 0px 20px 20px;
+    
+}
+
+.catalboxes :where(.css-1qfezbu).ant-collapse>.ant-collapse-item >.ant-collapse-header {
+    background-color: #ececec3d;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    padding: 5px 5px;
+    color: rgba(0, 0, 0, 0.88);
+    line-height: 1.5714285714285714;
+    cursor: pointer;
+    transition: all 0.3s, visibility 0s;
+}
+.catalboxes .btn1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.catalboxes .ActionBtns{
+    display:flex;
+    margin-top: 1rem;
+    flex-direction: row;
+   justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+    align-items: center;
+}
+.catalboxes .row{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+.catalboxes .box1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin: 1rem 1rem 1rem 1rem;
+    height:95%;
+    width: 30%;
+    border-radius: 20px;
+    box-shadow:0 4px 4px 0 rgba(87, 87, 87, 0.5);
+    border: none;
+}
+.catalboxes .box2{
+    background-color: rgb(255, 255, 255);
+    margin: 1rem 0rem 1rem 0rem;
+    height:95%;
+    max-height: 95%;
+    width: 85%;
+    max-width: 700px;
+    border-radius: 20px;
+    box-shadow:0 4px 4px 0 rgba(87, 87, 87, 0.5);
+    border: none;
+    
+}
+.catalboxes .box3{
+    background-color: rgb(255, 255, 255);
+    margin: 1rem 1rem 1rem 1rem;
+    height:95%;
+    width: 30%;
+    border-radius: 20px;
+    box-shadow:0 4px 4px 0 rgba(87, 87, 87, 0.5);
+    border: none;
+    
+}
+.catalboxes .matchedValue{
+    color: #1677ff;
+}
+.catalboxes .box3 .w-md-editor {
+    
+    border-radius: 20px;
+}
+.catalboxes .box .note{
+    width: 30px;
+    
+}
+
+.catalboxes .main{
+    margin: 1rem;
+}
+.catalboxes .notetitle{
+    text-align: center;
+}
+.catalboxes .tree{
+    margin-top:15px;
+    margin-left: 10px;
+    margin-right:10px;
+    width: 93%;
+}
+.catalboxes .treetitle{
+    margin-top:15px;
+    text-align: center;
+}
+
+.catalboxes .scrollable {
+    max-height: 200px; /* Устанавливаем максимальную высоту контейнера */
+    overflow-y: auto; /* Добавляем вертикальную прокрутку при необходимости */
+}
+
+.catalboxes .notetx{
+    margin: auto;
+    color: white;
+}
+.catalboxes .notetitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color:#2F678B;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+}
+
+.catalboxes :where(.css-1qfezbu).ant-upload-wrapper .ant-upload-list .ant-upload-list-item {
+    position: relative;
+    /* height: 22px; */
+    /* margin-top: 8px; */
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+} 
+.catalboxes :where(.css-dev-only-do-not-override-1qfezbu).ant-collapse>.ant-collapse-item >.ant-collapse-header {
+    height: 30px;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 12px 16px;
+    color: rgba(0, 0, 0, 0.88);
+    line-height: 1.5714285714285714;
+    cursor: pointer;
+    transition: all 0.3s, visibility 0s;
+}
+  
+
+  .catalboxes  .Notebox{
+    
+    margin-bottom:15px;
+    height: 500px;
+
+  }

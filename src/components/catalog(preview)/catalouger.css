@@ -1,0 +1,154 @@
+.catalboxes_preview{
+    background-color: rgb(236, 235, 235);
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+.catalboxes_preview p,h1,h2 ,h3, h4, h5{
+    color: black;
+}
+
+.catalboxes_preview :where(.css-1qfezbu).ant-collapse>.ant-collapse-item >.ant-collapse-header {
+    background-color: #ececec3d;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    padding: 5px 5px;
+    color: rgba(0, 0, 0, 0.88);
+    line-height: 1.5714285714285714;
+    cursor: pointer;
+    transition: all 0.3s, visibility 0s;
+}
+.catalboxes_preview :where(.css-1qfezbu).ant-collapse>.ant-collapse-item:last-child>.ant-collapse-header {
+    border-radius: 5px;
+}
+.catalboxes_preview .row{
+    
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+.catalboxes_preview :where(.css-1qfezbu).ant-btn-default {
+    margin: 1rem;
+    background: #ffffff;
+    border-color: #d9d9d9;
+    color: rgba(0, 0, 0, 0.88);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+}
+.catalboxes_preview  :where(.css-1qfezbu).ant-upload-wrapper .ant-upload-list .ant-upload-list-item {
+    position: relative;
+    /* height: 22px; */
+    /* margin-top: 8px; */
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+} 
+.catalboxes_preview  :where(.css-dev-only-do-not-override-1qfezbu).ant-collapse>.ant-collapse-item >.ant-collapse-header {
+    height: 30px;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 12px 16px;
+    color: rgba(0, 0, 0, 0.88);
+    line-height: 1.5714285714285714;
+    cursor: pointer;
+    transition: all 0.3s, visibility 0s;
+}
+.catalboxes_preview .box1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin: 1rem 1rem 1rem 1rem;
+    height:95%;
+    width: 30%;
+    border-radius: 20px;
+    box-shadow:0 4px 4px 0 rgba(87, 87, 87, 0.5);
+    border: none;
+    
+}
+.catalboxes_preview .box2{
+    background-color: rgb(255, 255, 255);
+    margin: 1rem 0rem 1rem 0rem;
+    height:95%;
+    max-height: 95%;
+    width: 85%;
+    max-width: 700px;
+    border-radius: 20px;
+    box-shadow:0 4px 4px 0 rgba(87, 87, 87, 0.5);
+    border: none;
+    
+}
+
+.catalboxes_preview .BtnToEditMode{
+    display: flex;
+    justify-content: center;
+}
+.catalboxes_preview .box3{
+    background-color: rgb(255, 255, 255);
+    margin: 1rem 1rem 1rem 1rem;
+    height:95%;
+    width: 30%;
+    border-radius: 20px;
+    box-shadow:0 4px 4px 0 rgba(87, 87, 87, 0.5);
+    border: none;
+    
+}
+.catalboxes_preview .box .note{
+    width: 30px;
+    
+}
+
+.catalboxes_preview .main{
+    margin: 1rem;
+    height: 87%;
+}
+.catalboxes_preview .noteMain{
+    margin: 0rem;
+    height: 87%;
+}
+.catalboxes_preview .noteContain{
+    margin: 1rem;
+    height: 87%;
+}
+.catalboxes_preview .notetx{
+    margin: auto;
+    color: white;
+}
+.catalboxes_preview .taskContainer{
+    height: 43vh;
+    margin: 1rem;
+}
+.catalboxes_preview .notetitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color:#2F678B;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+}
+.catalboxes_preview .tree{
+    margin-top:15px;
+  
+    margin-left: 10px;
+    margin-right:10px;
+    width: 93%;
+}
+.catalboxes_preview .treetitle{
+    margin-top:15px;
+    text-align: center;
+}
+
+.catalboxes_preview  .scrollable {
+    max-height: 45vh; /* Устанавливаем максимальную высоту контейнера */
+    overflow-y: auto; /* Добавляем вертикальную прокрутку при необходимости */
+  }
+  .catalboxes_preview  .btnChangeMode{
+    margin-left:auto ;
+    margin-right:auto 
+}

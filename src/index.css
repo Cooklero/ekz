@@ -1,0 +1,63 @@
+
+body {
+  margin: 0;
+  font-family: 'Roboto','Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:root{
+  --primary-color1:#ffff;
+  --primary-color2:#2F678B;
+}
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1{
+  color:#FFB562;
+  font-size: 3.5rem;
+}
+h2{
+  font-size: 3rem;
+}
+p{
+  color: #654E34;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+.container{
+  max-width: 1900px;
+  margin: 1rem;
+}
+button{
+  font: 'Roboto',sans-serif;
+  margin-top: 1rem;
+  background-color: var(--primary-color2);
+  border: var(--primary-color2);
+  color: var(--primary-color1);
+  font-size: 1rem;
+  font-weight: 9;
+  padding: 0.7rem 1.5rem;
+  border-radius: 18px;
+}
+button:hover{
+  background-color: #449bd1;
+  transition:0.4s;
+  cursor: pointer;
+}
+
+@media screen and (max-width:940px) {
+  h1{
+    font-size: 3rem;
+  }
+  h2{
+    font-size: 2.5rem;
+  }
+}
